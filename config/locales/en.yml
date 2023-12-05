@@ -1,0 +1,63 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# The following keys must be escaped otherwise they will not be retrieved by
+# the default I18n backend:
+#
+# true, false, on, off, yes, no
+#
+# Instead, surround them with single quotes.
+#
+# en:
+#   'true': 'foo'
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+en:
+  hello: "Hello world"
+  error:
+    required_value_missing: "A required value is missing"
+  profile:
+    not_exists: "Profile doesn't exist"
+    missing_params: "Profile Parameters are missing"
+    certification_missing: "Profile Certification missing"
+    insurance_coverage_missing: "Profile Insurance Coverage missing"
+  identifier:
+    blank: "Value is required for business identifier"
+    external_error: "Identifier value appears to be invalid"
+    country_missing: "Country is required"
+  group:
+    not_exists: "Group doesn't exist with the given name"
+  attachment:
+    missing_identifier: "Attachment Id is required"
+    missing_linked_to_details: "Linked to object details are required"
+    missing_details: "File and Linked Object is required"
+    file_service_error: "Can not create/get attachment"
+    get_file_error: "Cannot get file"
+    not_exists: "Attachments  doesn't exist"
+  certificate_type:
+    not_exists: "Certificate Type  doesn't exist"
+  insurance:
+    not_exists: "Insurance  doesn't exist"
+  certification:
+    not_exists: "Certification  doesn't exist"
+    attachments_missing: "Certification Attachments  doesn't exist"
+  insurance_coverage:
+    not_exists: "InsuranceCoverage  doesn't exist"
+    attachments_missing: "InsuranceCoverage Attachments  doesn't exist"
